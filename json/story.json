@@ -1,0 +1,79 @@
+[
+    {
+        "name": "slide1",
+        "story": "bear-bts",
+        "text": "Hi there my name is Justin.",
+        "background": "/img/mountains.png",
+        "assets": [
+          {
+            "type": "image",
+            "src" : "https://media.giphy.com/media/sfRpQ9kgZV8vt1afuu/giphy.gif",
+            "id": "fox",
+            "style": ["sdfsdf","dfdsf"],
+            "class": "enlarge2-0x foreground v40 h40"
+          },{
+            "type": "image",
+            "src" : "https://media.giphy.com/media/CsI6EQlH1Rl4XbKp89/giphy.gif",
+            "id": "oldwoman",
+            "style": ["sdfsdf","dfdsf"],
+            "class": "enlarge2-0x foreground v40 h40"
+          }
+        ],
+        "prompt": "Tell bear to wake up",
+        "hint": "Summer is over. Why does bear need to go?",
+        "hintprops": "#blue",
+        "advance": [
+          {
+            "response": "Wake|up",
+            "action": "slide2"
+          }
+        ]
+      },
+      {
+        "name": "slide1",
+        "story": "bear-bts",
+        "text": "Something happened",
+        "background": "https://images.pexels.com/photos/5824485/pexels-photo-5824485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "assets": [
+          {
+            "type": "image",
+            "src" : "https://media.giphy.com/media/wzusFs7cu29kC2SDhC/giphy.gif",
+            "id": "oldwoman",
+            "style": ["sdfsdf","dfdsf"],
+            "class": "enlarge2-0x foreground v40 h40"
+          },{
+            "src" : "https://media.giphy.com/media/CsI6EQlH1Rl4XbKp89/giphy.gif",
+            "id": "door",
+            "style": ["sdfsdf","dfdsf"],
+            "class": "enlarge2-0x foreground v40 h40"
+          }
+        ],
+        "prompt": "Tell bear to wake up",
+        "hint": "Summer is over. Why does bear need to go?",
+        "hintprops": "#blue",
+        "advance": [
+          {
+            "response": "Wake|up",
+            "action": "slide2"
+          }
+        ]
+      },
+      {
+        "name": "slide1",
+        "story": "bear-bts",
+        "text": "Whatever",
+        "background": "https://images.pexels.com/photos/5824485/pexels-photo-5824485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "assets": [
+          
+        ]
+      },
+      {
+        "name": "slide1",
+        "story": "bear-bts",
+        "text": "Somthing...",
+        "background": "https://images.pexels.com/photos/5824485/pexels-photo-5824485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "assets": [
+          
+        ]
+      }
+]
