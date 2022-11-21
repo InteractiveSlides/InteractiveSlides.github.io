@@ -1,0 +1,287 @@
+.nothere{
+    display: none;
+}
+#navigation4 {
+position:absolute;
+bottom:0;
+width:100%;
+height:60px;   /* Height of the footer */
+/*background:#6cf;*/
+}
+#topline {
+position: absolute;
+top: 97px;
+left: 0px;
+width: 100%;
+height: 53px;
+background-color: yellowgreen;
+}
+#iconSound {
+z-index: 900;
+opacity: 1;
+border-radius: 8px;
+border: 1px solid powderblue;
+left: 79vw;
+top: 6px;
+width: 47px;
+position: absolute;
+height: 44px;
+padding: 5px;
+background-repeat: no-repeat;
+background-position: center;
+}
+.on {
+background-image: url(/svg/sounds.svg);
+}
+
+.micoff {
+background-image: url(/svg/mic.svg);
+}
+
+#voiceIcon {
+width: 58px;
+height: 84px;
+border-radius: 20px;
+background-repeat: no-repeat;
+background-position: center;
+border: 1px solid lightblue;
+background-color: white;
+outline: none;
+position: absolute;   
+left: 89vw;
+top: 86px;
+}
+.voiceout {
+width: 750px;
+height: 180px;
+border-radius: 25px;
+border-width: 20px;
+position: absolute;
+left: 3vw;
+top: 50px;
+background-color:#FFFFFF;
+border:10px solid yellowgreen;
+resize: none;
+}
+.round-time-bar {
+margin: 1rem;
+overflow: hidden;
+}
+.listen {
+    background-color: white;
+    box-shadow: 0 0 20px 10px #fff, 0 0 10px 6px #ffff00, /* middle magenta */ 0 0 14px 9px #0ff;
+}
+#dialog {
+    z-index: 4000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(255,255,255);
+    opacity: 90%;
+    width: 100%;
+    height: 100%;
+}
+.dialogContent {
+    padding: 20px;
+    width: 530px;
+    background-color: rgba(255, 255, 255, 0.9);
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 205px;
+    filter: drop-shadow(4px 5px 5px 4px #333);
+    border: 1px solid black;
+}
+.not-selectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+  }
+
+  .extra {display:none;font-size:19px; position:absolute;background-color: rgba(255,255,255, .7) ;  z-index:29; }
+
+  .aac {width:75px; height:auto;}
+  .h1 {top:0vh;}
+  .h1 {top:1vh;}
+  .h5 {top:5vh;}
+  .h10 {left:10vw;}
+  .h15 {left:15vw;}
+  .h20 {left:20vw;}
+  .h25 {left:25vw;}
+  .h30 {left:30vw;}
+  .h35 {left:35vw;}
+  .h40 {left:40vw;}
+  .h45 {left:45vw;}
+  .h50 {left:50vw;}
+  .h55 {left:55vw;}
+  .h60 {left:60vw;}
+  .h65 {left:65vw;}
+  .h70 {left:70vw;}
+  .h75 {left:75vw;}
+  .h80 {left:80vw;}
+  .h85 {left:85vw;}
+  .h90 {left:90vw;}
+  .h95 {left:95vw;}
+  .h100 {left:100vw;}
+  .h110  {left:110vw;}
+  .h120  {left:120vw;}
+  
+  .v0 {top:0vh;}
+  .v01 {top:1vh;}
+  .v05 {top:5vh;}
+  .v10 {top:10vh;}
+  .v15 {top:15vh;}
+  .v20 {top:20vh;}
+  .v25 {top:25vh;}
+  .v30 {top:30vh;}
+  .v35 {top:35vh;}
+  .v40 {top:40vh;}
+  .v45 {top:45vh;}
+  .v50 {top:50vh;}
+  .v55 {top:55vh;}
+  .v60  {top:60vh;}
+  .v65  {top:65vh;}
+  .v70  {top:70vh;}
+  .v75  {top:75vh;}
+  .v80  {top:80vh;}
+  .v85  {top:85vh;}
+  .v90  {top:90vh;}
+  .v95  {top:95vh;}
+  .v100  {top:100vh;}
+  .v110  {top:110vh;}
+  html {min-width:100%}
+  .foreground {position:absolute;}
+  
+  .fg-layer1 {z-index: 450}
+  .fg-layer2 {z-index: 452}
+  .fg-layer3 {z-index: 453}
+  .fg-layer4 {z-index: 454}
+  .fg-layer5 {z-index: 455}
+  .fg-layer6 {z-index: 456}
+  .fg-layer7 {z-index: 457}
+  .fg-layer8 {z-index: 458}
+  
+  .shrink0-3x {    transform: scale(.1);}
+  .shrink0-3x {    transform: scale(.3);}
+  .shrink0-5x {    transform: scale(.5);}
+  .enlarge1-5x {    transform: scale(1.5);}
+  .enlarge2-0x {    transform: scale(2.0) }
+  .enlarge2-5x {    transform: scale(2.5) }
+  .enlarge3-0x {    transform: scale(3.0) }
+  .enlarge3-5x {    transform: scale(3.5) }
+  
+  .fadein-1 {
+      animation-delay: 1.0s;
+  }
+  
+  
+  .fadein-3 {
+      animation-delay: 3.0s;
+      animation-fill-mode: forwards;
+  }
+  
+  .fadein-4 {
+      animation-delay: 4.0s;
+      animation: fadein 4s;
+      animation-fill-mode: forwards;
+  }
+  
+  .fadein-5 {
+      animation-delay: 5.0s;
+      animation: fadein 5s;
+      animation-fill-mode: forwards;
+  }
+  
+  .fadein-6 {
+      animation-delay: 6.0s;
+      animation: fadein 6s;
+      animation-fill-mode: forwards;
+  }
+  
+  .fadein-7 {
+      animation-delay: 7.0s;
+      animation: fadein 7s;
+  }
+  
+  .fadein-8 {
+      animation-delay: 8.0s;
+      animation: fadein 8s;
+      animation-fill-mode: forwards;
+  }
+  
+  .fadein-9 {
+      animation-delay: 9.0s;
+  }
+  
+  .fadein-10 {
+      animation-delay: 10.0s;
+  }
+  .fadein-11 {
+      animation-delay: 11.0s;
+  }
+  .fadein-12 {
+      animation-delay: 12.0s;
+  }
+  
+  .fadein-13 {
+      animation-delay: 13.0s;
+  }
+  
+  .fadein-14 {
+      animation-delay: 14.0s;
+  }
+  
+  .fadein-15 {
+      animation-delay: 15.0s;
+  }
+  .fadein-16 {
+      animation-delay: 16.0s;
+  }
+  
+  .fadein-19 {
+      animation-delay: 19.0s;
+  }
+  
+  .fadein-2 {
+  animation: fadein 2s;
+  animation-delay: 2.0s;
+      animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  
+#logo {
+    width:196px;
+    padding: 14px 0 2px 3px;
+    z-index: 100;
+}
+#endState {display:none;}
+@media only screen and (max-width: 800px) {
+
+    .slide {font-size: 1.3em !important; line-height:22px;}
+}
+
+.ani {
+    transition: transform .9s ease-in-out;
+}
+#message {
+    background-color: rgb(234, 255, 203);
+    width: 110%;
+    position: fixed;
+    margin-top:50px;
+    text-align: center;
+    padding:5px;
+    z-index:300;
+}
