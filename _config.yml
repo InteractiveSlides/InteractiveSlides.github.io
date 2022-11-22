@@ -141,6 +141,11 @@ collections:
   pages:
     output: true
     permalink: /:path
+ 
+collections:
+  assets:
+    output: true
+    permalink: /
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
